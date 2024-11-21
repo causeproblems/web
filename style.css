@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('https://kartin.papik.pro/uploads/posts/2023-06/1688150053_kartin-papik-pro-p-kartinki-zvezdnoe-nebo-kosmos-fon-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: url('https://images.wallpaperscraft.ru/image/single/kosmos_iarkij_nebo_129939_1920x1080.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.prediction-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
